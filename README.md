@@ -34,7 +34,9 @@ In this example, 1 is a node, and 4 is the other node. 8 is the cost of the link
 The changes file represents a sequence of changes that happen to the topology in the simulation. The changes happen one by one, and they happen in order from top to bottom. Each line has the same structure as the lines in the topology file. A cost of -999 means that the link is broken/non-existent. Actual costs are never 0 or negative. 
 
 Ex: 
+
 1 4 10
+
 1 4 -999
 
 In this example, the link cost between nodes 1 and 4 changes to 10. Then the link between 1 and 4 is broken/removed. 
