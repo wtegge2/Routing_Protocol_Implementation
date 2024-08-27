@@ -2,9 +2,11 @@
 
 This project is an implementation of the link state routing protocol. 
 
-This implementation simulates what happens at each node after it has learned of the initial topology or a change has occured. The link state algorithm is run, and the routes are recomputed after each change. 
+This implementation simulates what happens at each node after it has learned of the initial topology or a change has occured. The link state algorithm is run, and the routes are recomputed after each change. Then the simulation shows what happens when the topology of the nodes changes and messages are sent between nodes. 
 
 For ties in determining which paths are better, this implementation chooses the path whose last node before the destination has a smaller ID. 
+
+The output of the simulation shows up in output.txt. The output shows the forwarding table entries for each node in the topology before and after each change is applied as well as which messages were sent and received by which nodes. 
 
 
 ## What is Link State Algorithm?
@@ -17,7 +19,7 @@ In the link state algorithm, nodes "gossip" with each other about the state of t
 1. Setup the topology file for the simulation
 2. Setup the changes file for the simulation
 3. Setup the messages file for the simulation
-4. Run the linkstate.cpp file:```./linkstate topofile messagefile changesfile```
+4. Run the simulation in the linkstate.cpp file using this command:```./linkstate topofile messagefile changesfile```
 
 
 ## Topology File
