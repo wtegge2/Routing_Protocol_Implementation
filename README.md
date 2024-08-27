@@ -24,7 +24,7 @@ In the link state algorithm, nodes "gossip" with each other about the state of t
 
 The topology file is a representation of the initial topology in the simulation. Each line represents a link between two nodes. 
 
-Ex: 
+Ex:  
 1 4 8
 
 In this example, 1 is a node, and 4 is the other node. 8 is the cost of the link between the two nodes. 
@@ -46,7 +46,7 @@ In this example, the link cost between nodes 1 and 4 changes to 10. Then the lin
 
 The messages file shows which nodes send data/messages to other nodes after the routing tables converge in the simulation. In the code, the routing tables converge before any of the topology changes and again after each change. All messages in this file are sent every time the tables converge. 
 
-Ex: 
+Ex:  
 1 4 here is a message from 1 to 4
 
 This message file would cause "here is a message from 1 to 4" to be sent from 1->4
