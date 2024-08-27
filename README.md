@@ -29,7 +29,7 @@ The topology file is a representation of the initial topology in the simulation.
 Ex:  
 1 4 8
 
-In this example, 1 is a node, and 4 is the other node. 8 is the cost of the link between the two nodes. 
+In this example, 1 is a node, and 4 is the other node. 8 is the cost of the link between the two nodes. This file is included in this repo with lines already written in them. Feel free to change it as you like. 
 
 
 ## Changes File
@@ -41,7 +41,7 @@ Ex:
 1 4 -999  
 
 
-In this example, the link cost between nodes 1 and 4 changes to 10. Then the link between 1 and 4 is broken/removed. 
+In this example, the link cost between nodes 1 and 4 changes to 10. Then the link between 1 and 4 is broken/removed. This file is included in this repo with lines already written in them. Feel free to change it as you like. 
 
 
 ## Messages File
@@ -51,7 +51,7 @@ The messages file shows which nodes send data/messages to other nodes after the 
 Ex:  
 1 4 here is a message from 1 to 4
 
-This message file would cause "here is a message from 1 to 4" to be sent from 1->4
+This message file would cause "here is a message from 1 to 4" to be sent from 1->4. This file is included in this repo with lines already written in them. Feel free to change it as you like. 
 
 
 
